@@ -50,7 +50,7 @@ var translator = exports.translator = function translator(labels) {
 				key: 'render',
 				value: function render() {
 					var props = returnTranslation(labels, this.props.lang);
-					return _react2.default.cloneElement(_react2.default.createElement(Component, null), props);
+					return _react2.default.cloneElement(_react2.default.createElement(Component, null), _extends({}, props, this.props));
 				}
 			}]);
 

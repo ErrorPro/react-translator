@@ -1,6 +1,6 @@
 {
   "name": "react-translation",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "React simple translator.",
   "main": "index.js",
   "scripts": {
@@ -19,8 +19,8 @@
     "intl",
     "react lang"
   ],
-  "dependencies": {
-    "react": "^15.2.0",
-    "react-redux": "^4.4.5"
+  "peerDependencies": {
+    "react": "*",
+    "react-redux": "*"
   }
 }
