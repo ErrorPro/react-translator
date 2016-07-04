@@ -35,3 +35,5 @@ Use your keys as props in your component:
     <button onClick={() => this.props.changeLanguage('en')}>en</button>
     <button onClick={() => this.props.changeLanguage('ru')}>ru</button>
     <button onClick={() => this.props.changeLanguage('sp')}>sp</button>
+
+[![Example](http://i.makeagif.com/media/7-04-2016/iZqMHr.gif)]()
