@@ -14,6 +14,7 @@ the name of reducer should be `lang`.
 
 Use the plugin in your component:
 
+    import { translator, changeLanguage } from 'react-translation';
     export default compose(
       connect(
         null,
